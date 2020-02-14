@@ -6,7 +6,7 @@ public static void main(String[] args) {
 	
 	String [] value = sc.nextLine().split(" "); 
 	
-	int lockup = 0,variable = 0,sale = 0,sum=0,count = 1;
+	int lockup = 0,variable = 0,sale = 0;
 	
 	for(int i = 0 ; i<value.length;i++) {
 		 if(i ==0) 
