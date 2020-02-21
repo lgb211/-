@@ -16,12 +16,8 @@ public class Sugar {
 	
 	public int bag(int n,int count) {
 		String x =Integer.toString(n);
-		int a = 0;
-		for(int i = 0;i<x.length();i++) {
-			 a= n%10;
-		}
-		
-		
+		int a = n%10;
+
 		if(n>=3 && n!= 4 && n!=7) {					
 		
 		switch(a)
