@@ -21,7 +21,7 @@ public static void main(String[] args) {
 		System.out.println(-1);
 	else
 		System.out.println((lockup/(sale-variable))+1);
-
+	
 	sc.close();
 }
 }
