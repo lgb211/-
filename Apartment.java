@@ -9,8 +9,8 @@ public static void main(String[] args) {
 	
 	for(int i = 0; i<t; i++) {
 		
-		int k = sc.nextInt(); //층 수 1
-		int n = sc.nextInt(); //호 수 3
+		int k = sc.nextInt(); //층 수 
+		int n = sc.nextInt(); //호 수 
 		int count = 1;        //0층 값
 		int[][] Apart = new int [k+1][n];//아파트 배열 
 		
